@@ -1,0 +1,11 @@
+{% extends 'main/layout.html'%}
+
+{% block title %}Новости на сайте{% endblock %}
+
+{% block content %}
+  <div class="features">
+    <h1>Новости на сайте</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis id modi obcaecati sunt ullam. Commodi distinctio ipsum saepe unde! Rem!</p>
+    <button class="btn btn-warning"><a href="{% url 'about' %}">Прочитайте информацию об этом сайте</a></button>
+  </div>
+{% endblock %}
